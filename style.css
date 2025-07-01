@@ -9,12 +9,11 @@
 
 window#waybar {
   background-color: rgba(37, 38, 35, 0.5); /* base */
-  border-bottom: 1px solid #313244;
   padding: 0 10px;
 }
 
 #workspaces {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 #workspaces button {
@@ -26,14 +25,13 @@ window#waybar {
 }
 
 #workspaces button.focused {
-  background-color: #8fb573; /* green */
+  background-color: rgba(219, 182, 81, 0.7); /* yellow */
   color: #f1e9d2; /* offwhite */
   font-weight: bold;
 }
 
 #workspaces button:hover {
-  background-color: #45475a;
-  color: #f5e0dc;
+  background-color: rgba(184, 153, 68, 0.7);
 }
 
 #clock {
