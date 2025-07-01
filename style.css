@@ -1,0 +1,50 @@
+* {
+  font-family: "Symbols Nerd Font Mono", "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 14px;
+  color: #f1e9d2;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+window#waybar {
+  background-color: rgba(37, 38, 35, 0.5); /* base */
+  border-bottom: 1px solid #313244;
+  padding: 0 10px;
+}
+
+#workspaces {
+  margin-left: 5px;
+}
+
+#workspaces button {
+  background: transparent;
+  color: #f1e9d2;
+  padding: 0 8px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+#workspaces button.focused {
+  background-color: #8fb573; /* green */
+  color: #f1e9d2; /* offwhite */
+  font-weight: bold;
+}
+
+#workspaces button:hover {
+  background-color: #45475a;
+  color: #f5e0dc;
+}
+
+#clock {
+  padding: 0 10px;
+  color: #8fb573; /* green */
+  font-weight: 500;
+}
+
+#battery, #cpu, #memory, #temperature, #network, #mpd, #idle_inhibitor {
+  padding: 5px 10px;
+}
+
+    /* "modules-right": ["mpd", "idle_inhibitor", "network", "cpu", "memory", "temperature", "battery", "battery#bat2", "clock", "tray"], */
+
